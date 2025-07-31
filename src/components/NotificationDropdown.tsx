@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Bell, Check, X, Clock, MessageSquare, BookOpen, GraduationCap, ClipboardCheck } from "lucide-react";
+import { ClipboardCheck, GraduationCap, MessageSquare, Bell, Check, X, Clock } from 'lucide-react';
 
 interface Notification {
   id: string;
@@ -86,7 +86,7 @@ interface NotificationDropdownProps {
   unreadCount: number;
 }
 
-export function NotificationDropdown({ isOpen, onClose, unreadCount }: NotificationDropdownProps) {
+export function NotificationDropdown({ isOpen, onClose }: NotificationDropdownProps) {
   const [notificationList, setNotificationList] = useState(notifications);
 
   const markAsRead = (id: string) => {

@@ -6,7 +6,7 @@ import { Switch } from "../ui/switch";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { useTheme } from "../ThemeProvider";
-import { User, Bell, Monitor, Palette, Shield } from "lucide-react";
+import { User, Palette, Bell, Shield } from "lucide-react";
 
 export function SettingsPage() {
   const { theme, toggleTheme } = useTheme();

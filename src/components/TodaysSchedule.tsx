@@ -104,7 +104,7 @@ export function TodaysSchedule({ searchQuery = "" }: TodaysScheduleProps) {
                   <div className="flex items-center justify-between mb-2">
                     <div>
                       <h4 className="font-semibold text-foreground">
-                        {highlightText(class_.course, searchQuery)}
+                        {highlightText(class_.course || '', searchQuery)}
                       </h4>
                       <p className="text-sm text-muted-foreground">
                         {highlightText(class_.name || "", searchQuery)}

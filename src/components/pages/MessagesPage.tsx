@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Badge } from "../ui/badge";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
-import { Search, Send, MessageCircle } from "lucide-react";
+import { Search, Send } from "lucide-react";
 
 const conversations = [
   {
