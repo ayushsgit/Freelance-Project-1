@@ -14,6 +14,17 @@ A modern, responsive student dashboard application built with React, TypeScript,
 - 📱 **Responsive Design**: Optimized for desktop and mobile devices
 - 🎨 **Modern UI**: Clean design with shadcn/ui components and smooth animations
 
+## Relevance to AI Infrastructure
+This frontend pattern could integrate with:
+- Kafka for real-time data streaming
+- AWS S3 for storage
+- Python backend for analytics
+
+## Potential AI Training Applications
+- UI pattern could be adapted for human data annotation workflows
+- Dashboard metrics could visualize model training progress
+- Student interaction patterns provide insights for educational AI
+
 ## Tech Stack
 
 - **React 18** - UI library
